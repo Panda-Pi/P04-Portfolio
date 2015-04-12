@@ -31,6 +31,7 @@
 
             .dot {
                 color: #79766F;
+                display: inline-block;
             }
 
             a:hover, a:focus {
@@ -152,6 +153,15 @@
             }
 
             hr {
+                width: 5%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 1.3em;
+                margin-bottom: 1.3em;
+            }
+
+            .icons {
+                width: 20%;
                 margin-left: auto;
                 margin-right: auto;
                 margin-top: 1.3em;
@@ -290,7 +300,7 @@
                 position: relative;
             }
 
-            span.content {
+            .content {
                 background: #B6A2C6;
                 display: table;
                 color: white;
@@ -307,48 +317,48 @@
                 transition: opacity 500ms;
             }
 
-            .sbox1 span.content {
+            .sbox1 .content {
                 height: 115px;
             }
 
-            .sbox2 span.content {
+            .sbox2 .content {
                 background: #A6E8FA;
                 height: 85px;
             }
 
-            .row1 span.content {
+            .row1 .content {
                 background: #A6E8FA;
                 height: 355px;
             }
 
-            .row2 span.content {
+            .row2 .content {
                 background: #A2C6C4;
                 height: 355px;
             }
 
-            span.content h3 {
+            .content h3 {
                 font-family: 'Carrois Gothic SC', sans-serif;
                 font-weight: 600;
             }
 
-            span.content p {
+            .content p {
                 font-family: 'Text Me One', sans-serif;
                 font-size: 18px;
                 text-transform: none;
             }
 
-            span.content span {
+            .content div {
                 display: table-cell;
                 text-align: center;
                 vertical-align: middle;
             }
 
-            .column1 .sbox1:hover span.content,
-            .column1 .sbox2:hover span.content,
-            .column2 .bbox:hover span.content,
-            .column3 .bbox:hover span.content,
-            .row1 .bbox:hover span.content,
-            .row2 .bbox:hover span.content {
+            .column1 .sbox1:hover .content,
+            .column1 .sbox2:hover .content,
+            .column2 .bbox:hover .content,
+            .column3 .bbox:hover .content,
+            .row1 .bbox:hover .content,
+            .row2 .bbox:hover .content {
                 opacity: 1;
             }
 
