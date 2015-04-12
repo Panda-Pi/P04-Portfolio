@@ -152,6 +152,15 @@
             }
 
             hr {
+                width: 5%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 1.3em;
+                margin-bottom: 1.3em;
+            }
+
+            .icons {
+                width: 20%;
                 margin-left: auto;
                 margin-right: auto;
                 margin-top: 1.3em;
