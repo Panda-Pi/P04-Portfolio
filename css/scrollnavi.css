@@ -185,13 +185,6 @@
 
             }
 
-            .title hr {
-                margin-left: auto;
-                margin-right: auto;
-                margin-top: 1.3em;
-                margin-bottom: 1.3em;
-            }
-
             .interest {
                 font-family: 'Carrois Gothic SC', sans-serif;
                 width: 100%;
@@ -435,12 +428,145 @@
                 margin-left: 20em;
             }
 
+@media (max-width: 40em) {
 
-@media only screen 
+           /* #nav{ 
+                width: 100%; 
+                line-height: 60px; 
+                height: auto; 
+                background-color: rgba(255,255,255,0.60);
+                font-size: 14px; 
+                font-weight: 700;
+                color: #CCB3C0; 
+                position: absolute; 
+                text-align: center;
+                z-index: 10;
+
+            }
+            a{ 
+                width: auto;
+            }
+
+            .dot {
+                visibility: hidden;
+            }
+
+            ul{
+                height: auto;
+            }
+
+            li{ 
+                padding-left: auto;
+                padding-right: auto;
+                display: block;
+                height: auto;
+            }
+
+            .container{
+                margin: 0 auto;
+            }*/
+
+            .logo {
+                width: 50%;
+            }
+
+            hr {
+                width: 20%;
+            }
+
+            .interestLogos {
+                width: 100%;
+            }
+
+            .animsition {
+                margin-left: 0;
+                margin-top: 0;
+            }
+
+            .column1 {
+                width: 95%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .column2 {
+                width: 40.8%;
+            }
+
+            .column3 {
+                width: 40.8%;
+            }
+
+            .row1 {
+                width: 95%;
+            }
+
+            .row2 {
+                width: 95%;
+            }
+
+            .content {
+                height: 45px;
+                top: 2.5em;
+                opacity: 0.7;
+            }
+
+            .sbox1 .content {
+                top: 2.5em;
+                height: 35px;
+            }
+
+            .sbox2 .content {
+                top: 1.5em;
+                height: 35px;
+            }
+
+            .row1 .content {
+                top: 11em;
+                height: 45px;
+            }
+
+            .row2 .content {
+                top: 6em;
+                height: 40px;
+            }
+
+            .content h3 {
+                font-size: 12px;
+            }
+
+            .content p {
+                font-size: 9px;
+
+            }
+
+            .column1 .sbox1:hover .content,
+            .column1 .sbox2:hover .content,
+            .column2 .bbox:hover .content,
+            .column3 .bbox:hover .content,
+            .row1 .bbox:hover .content,
+            .row2 .bbox:hover .content {
+                opacity: 0;
+            }
+
+            .socialmedia {
+                margin-bottom: 10em;
+            }
+
+            #HireMe {
+                width: 35%;
+                margin-top: 147.5em;
+                margin-left: 5em;
+                display: block;
+            }
+
+}
+
+/*@media only screen  
 and (max-width : 979px) {
 .container{
     margin: 0 auto;
     width: 100%;
     float:left;
 }
-}
+}*/
