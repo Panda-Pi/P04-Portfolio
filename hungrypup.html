@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hungry Pup</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/AWLogo1.png" type="image/x-icon">
+        <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Text+Me+One' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/projects.css">
+        <link rel="stylesheet" type="text/css" href="css/animsition.css">
+    </head>
+    <body>
+        <header>
+            <div class="animsition">
+            <a href="index.html" class="animsition-link">
+                <img class="logo" src="img/AWLogo.png" alt="Annie Wang">
+            </a>
+            </div>
+        </header>
+
+                <div class="item">
+                <div class="project">
+                    <h2>hungry pup</h2>
+                    <hr width="5%">
+                    <p>Hungry Pup is a short film about a puppy's little adventure. The illustrations and scenes were all created on Adobe Illustrator. However the title sequence was illustrated in Adobe After Effects. The star puppy in the video was filmed with a green screen. Both the footage and illustrations were put together on Adobe After Effects and Adobe Premiere.</p>
+                </div>
+                    <iframe src="https://player.vimeo.com/video/90733327" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <img src="img/scene.jpg" alt="Scene" />
+                    <img src="img/sign.jpg" alt="Sign" />
+                    <img src="img/menu.png" alt="Menu" />
+                </div>
+
+                    <a class="btn" href="index.html#works">
+                        view more works
+                    </a>
+        </div>
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script src="js/jquery.animsition.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+  
+            $(".animsition").animsition({
+  
+            inClass               :   'flip-in-y',
+            outClass              :   'flip-out-y',
+            inDuration            :    1500,
+            outDuration           :    800,
+            linkElement           :   '.animsition-link',
+            // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
+            loading               :    true,
+            loadingParentElement  :   'body', //animsition wrapper element
+            loadingClass          :   'animsition-loading',
+            unSupportCss          : [ 'animation-duration',
+                              '-webkit-animation-duration',
+                              '-o-animation-duration'
+                            ],
+            //"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+            //The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    
+            overlay               :   false,
+    
+            overlayClass          :   'animsition-overlay-slide',
+            overlayParentElement  :   'body'
+            });
+        });
+        </script>
+
+    </body>
+</html>

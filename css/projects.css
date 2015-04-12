@@ -1,0 +1,110 @@
+			body{
+                //overflow: hidden;
+                color:#fff;
+                font-size: 24px;
+                font-family: 'Text Me One', sans-serif;
+                text-align: center;
+            }
+
+            header {
+                width: 100%;
+                position: absolute;
+                padding: 2em 0;
+                left: 0;
+                top: 0;
+                background-color: #F9F1E4;
+            }
+
+            header > div {
+                width: 980px;
+                margin: 0 auto;
+            }
+
+            .logo {
+                width: 10%;
+            }
+
+            .project {
+                width: 100%;
+                float: left;
+                padding: 1em 1em 0;
+                color: #666666;
+                font-size: 14px;
+                margin-bottom: 1em;
+                letter-spacing: 0;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+
+            .project h2{
+                font-family: 'Carrois Gothic SC', sans-serif;
+                font-size: 28px;
+                letter-spacing: 0.1em;
+            }
+
+            .project p {
+                width: 50%;
+                font-size: 16px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 2em;
+            }
+
+            .item{
+                position: relative;
+                display: inline-block;
+                margin-top: 7em;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .item p {
+                color: #666666;
+                font-size: 16px;
+            }
+
+            .item img {
+                width: 60%;
+                margin-top: 2em;
+                margin-bottom: 1em;
+            }
+
+            iframe {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 3em;
+                margin-bottom: 3em;
+            }
+
+            .btn {
+                font-family: 'Carrois Gothic SC', sans-serif;
+                font-size: 16px;
+                color: #3A3835;
+                text-decoration: none;
+                border-style: double;
+                border-color: #ACA08D;
+                line-height: 50px;
+                letter-spacing: 2px;
+                padding: 15px 20px;
+            }
+
+            a.btn:hover, a.btn:focus {
+                border-style: solid;
+                border-color: #A295AC;
+                box-shadow: inset 0 0 0 2.5px #A295AC;
+                transition: box-shadow 0.2s;
+            }
+
+            .lilred {
+                width: 38%;
+                display: inline-block;
+                position: relative;
+            }
+
+            .lilred img {
+                width: 100%;
+                margin-top: 0;
+                float: left;
+                display: inline-block;
+            }

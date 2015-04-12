@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jen's Boutique</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/AWLogo1.png" type="image/x-icon">
+        <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Text+Me+One' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/projects.css">
+        <link rel="stylesheet" type="text/css" href="css/animsition.css">
+    </head>
+    <body>
+        <header>
+            <div class="animsition">
+            <a href="index.html" class="animsition-link">
+                <img class="logo" src="img/AWLogo.png" alt="Annie Wang">
+            </a>
+            </div>
+        </header>
+
+                <div class="item">
+                <div class="project">
+                    <h2>jen's boutique</h2>
+                    <hr width="5%">
+                    <p>Jen's Boutique is a company that resells the branded products imported from the United States to Taiwanese residents that wants oversea products that are not sold in Taiwan. I designed the style of the website. I went for a simple and elegant look to attract people from different age groups. </p>
+
+                    <a class="btn" href="http://panda-pi.github.io/P02-Company/index.html">
+                        visit site
+                    </a>
+                </div>
+                    <img src="img/site1.PNG" alt="Jen's Boutique Home" />
+                    <img src="img/site2.PNG" alt="Jen's Boutique Browsing Page" />
+                    <img src="img/site3.PNG" alt="Jen's Boutique Detail Page" />
+                    <img src="img/site4.PNG" alt="Jen's Boutique Shopping Bag Page" />
+                    <img src="img/site5.PNG" alt="Jen's Boutique Log in & Register Page" />
+                    <p>Collaborator: Winnie Ku</p>
+                </div>
+
+                    <a class="btn" href="index.html#works">
+                        view more works
+                    </a>
+        </div>
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script src="js/jquery.animsition.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+  
+            $(".animsition").animsition({
+  
+            inClass               :   'flip-in-y',
+            outClass              :   'flip-out-y',
+            inDuration            :    1500,
+            outDuration           :    800,
+            linkElement           :   '.animsition-link',
+            // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
+            loading               :    true,
+            loadingParentElement  :   'body', //animsition wrapper element
+            loadingClass          :   'animsition-loading',
+            unSupportCss          : [ 'animation-duration',
+                              '-webkit-animation-duration',
+                              '-o-animation-duration'
+                            ],
+            //"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+            //The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    
+            overlay               :   false,
+    
+            overlayClass          :   'animsition-overlay-slide',
+            overlayParentElement  :   'body'
+            });
+        });
+        </script>
+
+    </body>
+</html>

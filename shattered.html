@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shattered</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/AWLogo1.png" type="image/x-icon">
+        <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Text+Me+One' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/projects.css">
+        <link rel="stylesheet" type="text/css" href="css/animsition.css">
+    </head>
+    <body>
+        <header>
+            <div class="animsition">
+            <a href="index.html" class="animsition-link">
+                <img class="logo" src="img/AWLogo.png" alt="Annie Wang">
+            </a>
+            </div>
+        </header>
+
+                <div class="item">
+                <div class="project">
+                    <h2>shattered</h2>
+                    <hr width="5%">
+                    <p>Shattered is a hanging sculpture that gives the perception of shattering glass when moving to discourage users from wasting energy in the building.</p>
+                </div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LWyzrYUPIo8" frameborder="0" allowfullscreen></iframe>
+                    <img src="img/Shattered1.jpg" alt="Shattered" />
+                    <img src="img/Shattered2.jpg" alt="Shattered" />
+                    <img src="img/presedents1.jpg" alt="Woodskin" />
+                    <img src="img/presedents2.jpg" alt="Wooden Carpet" />
+                    <p>Collaborators: Winnie Ku & Flora Wu</p>
+                </div>
+
+                    <a class="btn" href="index.html#works">
+                        view more works
+                    </a>
+        </div>
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script src="js/jquery.animsition.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+  
+            $(".animsition").animsition({
+  
+            inClass               :   'flip-in-y',
+            outClass              :   'flip-out-y',
+            inDuration            :    1500,
+            outDuration           :    800,
+            linkElement           :   '.animsition-link',
+            // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
+            loading               :    true,
+            loadingParentElement  :   'body', //animsition wrapper element
+            loadingClass          :   'animsition-loading',
+            unSupportCss          : [ 'animation-duration',
+                              '-webkit-animation-duration',
+                              '-o-animation-duration'
+                            ],
+            //"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+            //The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    
+            overlay               :   false,
+    
+            overlayClass          :   'animsition-overlay-slide',
+            overlayParentElement  :   'body'
+            });
+        });
+        </script>
+
+    </body>
+</html>
