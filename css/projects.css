@@ -92,6 +92,15 @@
                 margin-bottom: 3em;
             }
 
+            .topbtn {
+                margin-bottom: 2em;
+            }
+
+            .btnpos {
+                margin-top: 0.5em;
+                margin-bottom: 0.5em;
+            }
+
             .btn {
                 font-family: 'Carrois Gothic SC', sans-serif;
                 font-size: 16px;
@@ -111,6 +120,10 @@
                 transition: box-shadow 0.2s;
             }
 
+            .origami img {
+                margin-top: 0;
+            }
+
             .lilred {
                 width: 38%;
                 display: inline-block;
@@ -124,11 +137,16 @@
                 display: inline-block;
             }
 
+            .PC img {
+                margin-top: 0;
+                width: 45%;
+            }
+
             .footer {
                 width: 100%;
                 position: absolute;
                 background-color: #F9F1E4;
-                margin-top: 2em;
+                margin-top: 1.5em;
                 padding: 1em 0;
                 left: 0;
                 -webkit-box-sizing: border-box;
@@ -188,11 +206,21 @@
             }
 
             .item img {
-                width: 85%;
+                width: 95%;
                 margin-top: 0;
             }
 
             iframe {
                 width: 95%;
+            }
+
+            .lilred {
+                width: 95%;
+            }
+
+            .btn {
+                font-size: 12px;
+                line-height: 80px;
+                padding: 10px 15px;
             }
 }
