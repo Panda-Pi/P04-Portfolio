@@ -153,3 +153,46 @@
             .contact p {
                 margin-top: 1.5em;
             }
+
+@media (max-width: 40em) {
+
+            header {
+                padding: 1em 0;
+            }
+
+            .logo {
+                width: 30%;
+            }
+
+            .project h2{
+                font-size: 21px;
+            }
+
+            hr {
+                width: 15%;
+            }
+
+            .project p {
+                margin-top: 2em;
+                margin-bottom: 1em;
+            }
+
+            .item{
+                width: 100%;
+                margin-top: 4em;
+            }
+
+            .item p {
+                width: 95%;
+                font-size: 12px;
+            }
+
+            .item img {
+                width: 85%;
+                margin-top: 0;
+            }
+
+            iframe {
+                width: 95%;
+            }
+}

@@ -18,7 +18,7 @@
                 color: #CCB3C0; 
                 position: absolute; 
                 text-align: center;
-                z-index: 10;
+                z-index: 10000;
 /*                top:550px; 
                 left: 0px;*/
             }
@@ -219,9 +219,25 @@
                 overflow: auto;
             }
 
+            .portfolio {
+                font-family: 'Carrois Gothic SC', sans-serif;
+                font-size: 21px;
+                font-weight: 600;
+                letter-spacing: 0.1em;
+                color: #666666;
+                margin-top: 0;
+                visibility: hidden;
+            }
+
+            .portfolio hr {
+                margin: 0;
+                width: 10%;
+                visibility: hidden;
+            }
+
             .animsition {
                 margin-left: 7em;
-                margin-top: 3em;
+                margin-top: 1.5em;
                 margin-bottom: 3em;
             }
 
@@ -365,24 +381,6 @@
                 position: relative;
             }
 
-            /*.top a {
-                border-bottom: none;
-            }
-
-            .top a:hover {
-                opacity: 0.7;
-            }
-
-            .top img {
-                margin-bottom: 2em;
-            }*/
-
-/*            .item a:hover {
-                display: block;
-                border-bottom: none;
-                padding-bottom: 0;
-            }
-*/
             #contact{ 
 /*                line-height: 700px;*/ 
                 background: #f9f1e4; 
@@ -430,52 +428,42 @@
 
 @media (max-width: 40em) {
 
-           /* #nav{ 
-                width: 100%; 
-                line-height: 60px; 
-                height: auto; 
-                background-color: rgba(255,255,255,0.60);
-                font-size: 14px; 
-                font-weight: 700;
-                color: #CCB3C0; 
-                position: absolute; 
-                text-align: center;
-                z-index: 10;
-
-            }
-            a{ 
-                width: auto;
-            }
-
-            .dot {
-                visibility: hidden;
-            }
-
-            ul{
-                height: auto;
-            }
-
-            li{ 
-                padding-left: auto;
-                padding-right: auto;
-                display: block;
-                height: auto;
-            }
-
-            .container{
-                margin: 0 auto;
-            }*/
-
             .logo {
                 width: 50%;
+            }
+
+            .aboutMe {
+                width: 95%;
+                font-size: 21px;
             }
 
             hr {
                 width: 20%;
             }
 
+            .interest {
+                width: 85%;
+                font-size: 21px;
+            }
+
             .interestLogos {
                 width: 100%;
+            }
+
+            .details {
+                margin-top: 0.5em;
+                margin-bottom: 2em;
+                width: 85%;
+            }
+
+            .portfolio {
+                visibility: visible;
+                margin-top: 2em;
+            }
+
+            .portfolio hr {
+                visibility: visible;
+                margin: 0.5em auto;
             }
 
             .animsition {
@@ -549,13 +537,17 @@
                 opacity: 0;
             }
 
+            .contactmsg{
+                font-size: 21px;
+            }
+
             .socialmedia {
                 margin-bottom: 10em;
             }
 
             #HireMe {
                 width: 35%;
-                margin-top: 147.5em;
+                margin-top: 141.3em;
                 margin-left: 5em;
                 display: block;
             }
