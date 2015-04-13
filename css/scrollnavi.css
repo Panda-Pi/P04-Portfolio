@@ -1,11 +1,16 @@
             *{ margin: 0;padding: 0;}
             
             body{
-                //overflow: hidden;
-                color:#fff;
+                color: white;
                 font-size: 24px;
                 font-family: 'Text Me One', sans-serif;
                 text-align: center;
+            }
+
+            *, *::after, *::before{
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
             }
             
             #nav{ 
@@ -19,6 +24,8 @@
                 position: absolute; 
                 text-align: center;
                 z-index: 10000;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
             }
 
             a{ 
@@ -122,6 +129,7 @@
                 color: #666666;
                 text-align: center;
                 text-transform: uppercase;
+                -webkit-font-smoothing: antialiased;
             }
 
             h4 {
@@ -132,6 +140,7 @@
                 color: #666666;
                 opacity: 0.4;
                 text-align: center;
+                -webkit-font-smoothing: antialiased;
             }
 
             #about{ 
@@ -148,6 +157,7 @@
                 font-weight: 300;
                 letter-spacing: 0;
                 text-transform: none;
+                -webkit-font-smoothing: antialiased;
             }
 
             hr {
@@ -225,9 +235,10 @@
                 color: #666666;
                 margin-top: 0;
                 visibility: hidden;
+                -webkit-font-smoothing: antialiased;
             }
 
-            .portfolio hr {
+            .portfoliohr {
                 margin: 0;
                 width: 10%;
                 visibility: hidden;
@@ -346,6 +357,7 @@
             .content h3 {
                 font-family: 'Carrois Gothic SC', sans-serif;
                 font-weight: 600;
+                -webkit-font-smoothing: antialiased;
             }
 
             .content p {
@@ -402,6 +414,7 @@
                 margin-top: 0.5em;
                 font-weight: 300;
                 margin-bottom: 1em;
+                -webkit-font-smoothing: antialiased;
             }
 
             .socialmedia {
@@ -420,8 +433,8 @@
             #HireMe {
                 z-index: 1;
                 position: absolute;
-                margin-top: 109em;
-                margin-left: 20em;
+                right: 1.5em;
+                top: 108em;
             }
 
 @media (max-width: 40em) {
@@ -469,7 +482,6 @@
                 margin-top: 0.5em;
                 margin-bottom: 2em;
                 width: 85%;
-                font-size: 14px;
             }
 
             .portfolio {
@@ -477,7 +489,7 @@
                 margin-top: 4em;
             }
 
-            .portfolio hr {
+            .portfoliohr {
                 visibility: visible;
                 margin: 0.5em auto;
             }
@@ -513,7 +525,7 @@
             .content {
                 height: 50px;
                 top: 2.5em;
-                opacity: 0.7;
+                opacity: 0.85;
             }
 
             .sbox1 .content {
@@ -522,12 +534,12 @@
             }
 
             .sbox2 .content {
-                top: 1.7em;
+                top: 1.58em;
                 height: 40px;
             }
 
             .row1 .content {
-                top: 11.2em;
+                top: 11.12em;
                 height: 50px;
             }
 
@@ -564,8 +576,9 @@
 
             #HireMe {
                 width: 35%;
-                margin-top: 142.8em;
-                margin-left: 5em;
+                right: 50%;  
+                margin-right: -65px;   
+                margin-top: 37em;
                 display: block;
             }
 
@@ -574,12 +587,3 @@
             }
 
 }
-
-/*@media only screen  
-and (max-width : 979px) {
-.container{
-    margin: 0 auto;
-    width: 100%;
-    float:left;
-}
-}*/
