@@ -34,9 +34,11 @@
                 text-transform: uppercase;
             }
 
-            .dot {
+            nav .dot {
                 color: #79766F;
                 display: inline-block;
+                padding-left: 1.5em;
+                padding-right: 1.5em;
             }
 
             a:hover, a:focus {
@@ -44,11 +46,7 @@
                 padding-bottom: 3px;
             }
 
-            ul{ 
-                list-style: none;
-            }
-
-            li{ 
+            nav { 
                 padding-left: 1em;
                 padding-right: 1em;
                 display: inline-block;
@@ -430,6 +428,10 @@
                 opacity: 0.7;
             }
 
+            .contatinerHire {
+                position: relative;
+            }
+
             #HireMe {
                 z-index: 1;
                 position: absolute;
@@ -439,10 +441,15 @@
 
 @media (max-width: 40em) {
 
-            li{ 
+            nav { 
                 padding-left: 0.5em;
                 padding-right: 0.5em;
                 letter-spacing: 0.28em;
+            }
+
+            nav .dot {
+                padding-left: 0.5em;
+                padding-right: 0.5em;
             }
 
             .container{
