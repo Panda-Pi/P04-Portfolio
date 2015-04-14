@@ -105,7 +105,6 @@
             }
 
             #home{ 
-/*                line-height: 700px; */
                 background: #f9f1e4; 
                 width: 100%; 
                 float: left;  
@@ -143,7 +142,6 @@
             }
 
             #about{ 
-/*                line-height: 700px; */
                 background: #f9f1e4; 
                 width: 100%; 
                 float: left;  
@@ -220,30 +218,12 @@
             }
 
             #works{ 
-/*                line-height: 700px; */
                 background: #FFFFFF; 
                 width: 100%; 
                 float: left;  
                 overflow: auto;
                 margin-bottom: 6.7em;
             }
-
-            /*.portfolio {
-                font-family: 'Carrois Gothic SC', sans-serif;
-                font-size: 21px;
-                font-weight: 600;
-                letter-spacing: 0.1em;
-                color: #666666;
-                margin-top: 0;
-                visibility: hidden;
-                -webkit-font-smoothing: antialiased;
-            }
-
-            .portfoliohr {
-                margin: 0;
-                width: 10%;
-                visibility: hidden;
-            }*/
 
             .animsition {
                 width: 70%;
@@ -394,7 +374,6 @@
             }
 
             #contact{ 
-/*                line-height: 700px;*/ 
                 background: #f9f1e4; 
                 width: 100%; 
                 float: left;  
@@ -498,16 +477,6 @@
                 margin-bottom: 2em;
                 width: 85%;
             }
-
-            /*.portfolio {
-                visibility: visible;
-                margin-top: 4em;
-            }
-
-            .portfoliohr {
-                visibility: visible;
-                margin: 0.5em auto;
-            }*/
 
             #works .animsition {
                 width: 90%;
