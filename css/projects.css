@@ -25,6 +25,15 @@
                 width: 10%;
             }
 
+            .animsition {
+                width: 70%;
+            }
+
+            .strong {
+                font-family: 'Carrois Gothic SC', sans-serif;
+                letter-spacing: 0.1em;
+            }
+
             .project {
                 width: 100%;
                 float: left;

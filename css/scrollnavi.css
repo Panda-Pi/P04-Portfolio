@@ -34,9 +34,11 @@
                 text-transform: uppercase;
             }
 
-            .dot {
+            nav .dot {
                 color: #79766F;
                 display: inline-block;
+                padding-left: 1.5em;
+                padding-right: 1.5em;
             }
 
             a:hover, a:focus {
@@ -44,11 +46,7 @@
                 padding-bottom: 3px;
             }
 
-            ul{ 
-                list-style: none;
-            }
-
-            li{ 
+            nav { 
                 padding-left: 1em;
                 padding-right: 1em;
                 display: inline-block;
@@ -227,7 +225,7 @@
                 overflow: auto;
             }
 
-            .portfolio {
+            /*.portfolio {
                 font-family: 'Carrois Gothic SC', sans-serif;
                 font-size: 21px;
                 font-weight: 600;
@@ -242,11 +240,12 @@
                 margin: 0;
                 width: 10%;
                 visibility: hidden;
-            }
+            }*/
 
             .animsition {
+                width: 70%;
                 margin-left: 7em;
-                margin-top: 1.5em;
+                margin-top: 3em;
                 margin-bottom: 3em;
             }
 
@@ -430,6 +429,10 @@
                 opacity: 0.7;
             }
 
+            .contatinerHire {
+                position: relative;
+            }
+
             #HireMe {
                 z-index: 1;
                 position: absolute;
@@ -439,10 +442,15 @@
 
 @media (max-width: 40em) {
 
-            li{ 
+            nav { 
                 padding-left: 0.5em;
                 padding-right: 0.5em;
                 letter-spacing: 0.28em;
+            }
+
+            nav .dot {
+                padding-left: 0.5em;
+                padding-right: 0.5em;
             }
 
             .container{
@@ -463,6 +471,8 @@
                 width: 95%;
                 font-size: 21px;
                 margin-top: 4em;
+                margin-left: auto;
+                margin-right: auto;
             }
 
             hr {
@@ -472,6 +482,8 @@
             .interest {
                 width: 85%;
                 font-size: 21px;
+                margin-left: auto;
+                margin-right: auto;
             }
 
             .interestLogos {
@@ -484,7 +496,7 @@
                 width: 85%;
             }
 
-            .portfolio {
+            /*.portfolio {
                 visibility: visible;
                 margin-top: 4em;
             }
@@ -492,11 +504,12 @@
             .portfoliohr {
                 visibility: visible;
                 margin: 0.5em auto;
-            }
+            }*/
 
-            .animsition {
+            #works .animsition {
+                width: 90%;
                 margin-left: 0;
-                margin-top: 0;
+                margin-top: 2em;
                 margin-bottom: 1em;
             }
 
@@ -507,25 +520,25 @@
             }
 
             .column2 {
-                width: 40.8%;
+                width: 40%;
             }
 
             .column3 {
-                width: 40.8%;
+                width: 40%;
             }
 
             .row1 {
-                width: 95%;
+                width: 90%;
             }
 
             .row2 {
-                width: 95%;
+                width: 90%;
             }
 
-            .content {
+            /*.content {
                 height: 50px;
                 top: 2.5em;
-                opacity: 0.85;
+                opacity: 1;
             }
 
             .sbox1 .content {
@@ -539,7 +552,7 @@
             }
 
             .row1 .content {
-                top: 11.12em;
+                top: 10.5em;
                 height: 50px;
             }
 
@@ -564,7 +577,7 @@
             .row1 .bbox:hover .content,
             .row2 .bbox:hover .content {
                 opacity: 0;
-            }
+            }*/
 
             .contactmsg{
                 font-size: 21px;
@@ -578,12 +591,23 @@
                 width: 35%;
                 right: 50%;  
                 margin-right: -65px;   
-                margin-top: 37em;
+                margin-top: 41em;
                 display: block;
             }
 
             #backtotop, .backtotop {
                 visibility: hidden;
+            }
+
+}
+
+@media (max-width: 70em) {
+
+            .animsition {
+                width: 80%;
+                margin-top: 3em;
+                margin-bottom: 4.5em;
+                margin-left: 5.5em;
             }
 
 }
