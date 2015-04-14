@@ -133,6 +133,7 @@
             h4 {
                 font-family: 'Carrois Gothic SC', sans-serif;
                 margin-bottom: 10.2em;
+                height: 10em;
                 font-size: 20px;
                 font-weight: 500;
                 color: #666666;
@@ -215,6 +216,7 @@
                 width: 55%;
                 margin-left: auto;
                 margin-right: auto;
+                height: 15em;
             }
 
             #works{ 
@@ -223,6 +225,7 @@
                 width: 100%; 
                 float: left;  
                 overflow: auto;
+                margin-bottom: 6.7em;
             }
 
             /*.portfolio {
@@ -418,7 +421,7 @@
 
             .socialmedia {
                 margin-top: 2em;
-                margin-bottom: 8em;
+                margin-bottom: 17em;
             }
 
             .socialmedia a {
@@ -437,7 +440,7 @@
                 z-index: 1;
                 position: absolute;
                 right: 1.5em;
-                top: 108em;
+                top: 132em;
             }
 
 @media (max-width: 40em) {
@@ -587,11 +590,15 @@
                 margin-bottom: 10em;
             }
 
+            .contatinerHire {
+                position: relative;
+            }
+
             #HireMe {
                 width: 35%;
                 right: 50%;  
                 margin-right: -65px;   
-                margin-top: 41em;
+                margin-top: 36em;
                 display: block;
             }
 
